@@ -1,0 +1,39 @@
+header {
+  padding: 3rem 1.5rem 2rem;
+  border-bottom: 1px solid $border;
+  text-align: center;
+
+  h1 {
+    font-family: $font-display;
+    margin: 0 0 0.25rem;
+    font-size: 2.25rem;
+  }
+
+  .tagline {
+    color: $muted;
+    margin: 0 0 1.25rem;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+
+    a {
+      color: $accent;
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover,
+      &:focus-visible {
+        text-decoration: underline;
+      }
+    }
+  }
+}

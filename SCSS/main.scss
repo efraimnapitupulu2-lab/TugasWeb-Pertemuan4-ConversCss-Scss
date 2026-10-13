@@ -1,0 +1,21 @@
+/* 1. Impor Variabel & Mixins */
+@import 'abstrak/variables';
+@import 'abstrak/mixins';
+
+/* 2. Global Resets */
+* { 
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  background: $bg;
+  color: $ink;
+  font-family: $font-body;
+  line-height: 1.6;
+}
+
+/* 3. Impor Komponen Bagian Landing Page */
+@import 'komponen/header';
+@import 'komponen/sections';
+@import 'komponen/footer';

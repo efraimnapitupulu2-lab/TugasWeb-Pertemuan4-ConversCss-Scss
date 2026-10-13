@@ -1,0 +1,135 @@
+/* 1. Impor Variabel & Mixins */
+/* 2. Global Resets */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fbfaf7;
+  color: #24303a;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* 3. Impor Komponen Bagian Landing Page */
+header {
+  padding: 3rem 1.5rem 2rem;
+  border-bottom: 1px solid #e1ddd2;
+  text-align: center;
+}
+header h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  margin: 0 0 0.25rem;
+  font-size: 2.25rem;
+}
+header .tagline {
+  color: #5c6b74;
+  margin: 0 0 1.25rem;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+header nav a {
+  color: #2b6777;
+  text-decoration: none;
+  font-weight: 600;
+}
+header nav a:hover, header nav a:focus-visible {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+section {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #e1ddd2;
+}
+section:last-child {
+  border-bottom: none;
+}
+section h2 {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #2b6777;
+  margin-top: 0;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding: 0;
+  list-style: none;
+}
+.skill-list li {
+  background: #d7ecec;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+figure {
+  margin: 0;
+}
+figure img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  display: block;
+}
+figure figcaption {
+  color: #5c6b74;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.1rem;
+}
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #e1ddd2;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.form-group input:focus-visible, .form-group textarea:focus-visible {
+  outline: 2px solid #2b6777;
+  outline-offset: 1px;
+}
+
+button[type=submit] {
+  background: #2b6777;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button[type=submit]:hover {
+  opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  color: #5c6b74;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=main.css.map */

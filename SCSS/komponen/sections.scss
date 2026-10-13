@@ -1,0 +1,90 @@
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+section {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid $border;
+
+  &:last-child { 
+    border-bottom: none; 
+  }
+
+  h2 {
+    font-family: $font-display;
+    color: $accent;
+    margin-top: 0;
+  }
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding: 0;
+  list-style: none;
+
+  li {
+    background: $accent-soft;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+  }
+}
+
+figure {
+  margin: 0;
+
+  img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    display: block;
+  }
+
+  figcaption {
+    color: $muted;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.form-group {
+  margin-bottom: 1.1rem;
+
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid $border;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+
+    &:focus-visible {
+      outline: 2px solid $accent;
+      outline-offset: 1px;
+    }
+  }
+}
+
+button[type="submit"] {
+  background: $accent;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
